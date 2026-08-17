@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-Termux%20%2F%20Linux-green?style=for-the-badge&logo=android&logoColor=white)
 ![UI](https://img.shields.io/badge/UI-Rich%20TUI-magenta?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-red?style=for-the-badge)
+![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge)
 ![Author](https://img.shields.io/badge/Developer-TBFPUMBA-orange?style=for-the-badge)
 
 > **Security Audit & Network Recon Suite for Termux**  
@@ -26,11 +26,12 @@
 pkg update && pkg install python nmap git -y
 
 # 2. Клонування репозиторію
-git clone https://github.com/ВАШ_USERNAME/TBF.OS.OS.MD.git (https://github.com/ВАШ_USERNAME/TBF.OS.OS.MD.git)
+git clone https://github.com/cocofembo-glitch/TBF.OS.OS.MD.git (https://github.com/cocofembo-glitch/TBF.OS.OS.MD.git)
 cd TBF.OS.OS.MD
 
-# 3. Встановлення бібліотеки Rich
+# 3. Встановлення залежностей
 pip install -r requirements.txt
 
 # 4. Запуск інструменту
 python tbf_os.py
+
